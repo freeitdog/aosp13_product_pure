@@ -1,0 +1,12 @@
+cc_binary {
+    name: "hello",
+    srcs: [
+        "main.cpp",
+    ],
+    vendor: true,
+    shared_libs: [
+        "libutils",
+        "liblog",
+        "libhello"
+    ]
+}

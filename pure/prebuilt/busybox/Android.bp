@@ -1,0 +1,6 @@
+cc_prebuilt_binary {
+    name: "busybox",
+    srcs: ["busybox-i686"],
+    // product_specific: true,
+    vendor: true,
+}

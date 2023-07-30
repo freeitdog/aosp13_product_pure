@@ -1,0 +1,15 @@
+
+cc_library {
+    name: "libhello",
+    vendor: true,
+    srcs: [
+        "src/hello.cpp",
+    ],
+    export_include_dirs: [
+        "include"
+    ],
+    shared_libs: [
+        "libutils",
+        "liblog",
+    ]
+}
